@@ -1,0 +1,10 @@
+#My first dockerfile create during studying#
+
+FROM    debian
+
+LABEL app="ORCA"
+ENV PEDRO="lindo" 
+
+RUN apt-get update && apt-get install stress
+
+CMD echo 134
